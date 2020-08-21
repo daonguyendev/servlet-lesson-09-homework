@@ -1,6 +1,5 @@
 package com.daonguyen;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,17 +11,14 @@ import java.io.PrintWriter;
 import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 @WebServlet(name = "userServlet", urlPatterns = {"/user"})
 public class UserServlet extends HttpServlet {
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         resp.setCharacterEncoding("UTF-8");
         req.setCharacterEncoding("UTF-8");
@@ -49,8 +45,7 @@ public class UserServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
-            throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Step 1: Get user info from user's request
         String fullName = req.getParameter("fullname");
         String birthdayTime = req.getParameter("birthdaytime");

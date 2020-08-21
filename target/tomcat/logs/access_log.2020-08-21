@@ -77,3 +77,8 @@
 0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:20:31 +0700] "POST /userapp/user HTTP/1.1" 302 - http-bio-8080-exec-3 5
 0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:20:31 +0700] "GET /userapp/userDetail HTTP/1.1" 200 128 http-bio-8080-exec-4 1
 0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:20:34 +0700] "GET /userapp/user HTTP/1.1" 200 656 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:28:39 +0700] "GET /userapp/user HTTP/1.1" 200 656 http-bio-8080-exec-1 28
+0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:28:52 +0700] "POST /userapp/user HTTP/1.1" 302 - http-bio-8080-exec-3 5
+0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:28:52 +0700] "GET /userapp/userDetail HTTP/1.1" 200 128 http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:28:58 +0700] "GET /userapp/user HTTP/1.1" 200 656 http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [21/Aug/2020:16:29:39 +0700] "GET /userapp/user HTTP/1.1" 200 656 http-bio-8080-exec-1 30
